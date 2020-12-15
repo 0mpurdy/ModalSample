@@ -23,14 +23,6 @@ navigation stack underneath).
 Using the latest prerelease versions (`prerelease-broken` branch) does not fix
 the issue.
 
-What I expect: `master`
-
-![master branch behaviour gif](template-working.gif)
-
-Async behaviour: `broken`
-
-![broken branch behaviour gif](template-async.gif)
-
-Prerelease async behaviour: `prerelease-broken`
-
-![prerelease-broken branch behaviour gif](prerelease-async.gif)
+| `master` (working) | `broken` | `prerelease-broken` |
+| --- | --- | --- |
+| ![master branch behaviour gif](template-working.gif) | ![broken branch behaviour gif](template-async.gif) | ![prerelease-broken branch behaviour gif](prerelease-async.gif) |
