@@ -13,15 +13,15 @@ namespace ModalSample
             InitializeComponent();
         }
 
-        private async void PushAlternativeModal_Clicked(object sender, EventArgs e)
+        private void PushAlternativeModal_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PopModalAsync(false);
-            await Navigation.PushModalAsync(new AlternativeModalPage(), false);
+            Navigation.PopModalAsync();
+            Navigation.PushModalAsync(new AlternativeModalPage());
         }
 
-        private async void PopModalButton_Clicked(object sender, EventArgs e)
+        private void PopModalButton_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PopModalAsync();
+            Navigation.PopModalAsync();
         }
     }
 }
