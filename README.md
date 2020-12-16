@@ -16,10 +16,6 @@ However the initial commit (`broken` branch), using async await, does not.
 
 - Popping a modal then immediately pushing another one returns to the "NextPage"
 
-On another project, there is an additional issue where popping a modal returns
-to the original main page of the application (disregarding the history in the
-navigation stack underneath).
-
 Using the latest prerelease versions (`prerelease-broken` branch) does not fix
 the issue.
 
